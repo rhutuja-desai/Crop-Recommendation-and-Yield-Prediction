@@ -1,1 +1,3 @@
-# cropreccomendandyieldprediction
+A crop recommendation and yield prediction machine learning model aids farmers in choosing the best crop to grow in a specific location and forecasts the crop's production. The model is made to offer perceptions and advice that are particular to the farmer's area as well as other important elements like climate, precipitation, and temperature.
+
+Combining supervised and unsupervised learning techniques can be used to build the model. For instance, the model can recommend crops based on historical yield data and other relevant variables using supervised learning techniques like decision trees, random forests, or support vector machines. In order to find patterns in the data and classify them, the model can also apply unsupervised learning algorithms like k-means clustering.
