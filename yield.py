@@ -43,3 +43,5 @@ model = RandomForestRegressor(n_estimators = 40)
 model.fit(xx_train,yy_train)
 pickle.dump(model, open('yield.pkl','wb'))
 model2 = pickle.load(open('yield.pkl','rb'))
+
+#run code to download the pickle file for yield prediciton
