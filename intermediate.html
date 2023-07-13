@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation</title>
+    <link rel="stylesheet" href="../styling/intermediate.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="Nav">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand text-white" href="/">Recommendation</a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <!-- <div class="align-center container">
+        <div class="login">
+            <h1> Crop Recommendation</h1>
+            <form action="{{ url_for('predict')}}" method="post">
+                <div class="row">
+                    <input type="text" name="N" placeholder="N" required="required" />
+                    <br><br>
+                    <input type="text" name="P" placeholder="P" required="required" />
+                    <br><br>
+                    <input type="text" name="K" placeholder="K" required="required" />
+                    <br><br>
+                    <input type="text" name="Temperature" placeholder="temperature" required="required" />
+                    <br><br>
+                    <input type="text" name="humidity" placeholder="huimdity" required="required" />
+                    <br><br>
+                    <input type="text" name="ph" placeholder="ph" required="required" />
+                    <br><br>
+                    <input type="text" name="rainfall" placeholder="rainfall" required="required" />
+                    <br><br>
+
+                </div>
+              <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+          </form>
+         <br>
+         {{ prediction_text }}
+         <br>
+      
+        </div>
+        <a href="yield">
+            <button class="btn btn-primary btn-lg" style="width: 296px;">Predict the yield</button>
+        </a>
+    </div> -->
+    <!-- CHECK -->
+    <div class="container">
+        <div class="right">
+            <h1> Crop Recommendation</h1>
+            <form action="{{ url_for('predict')}}" method="post">
+                <div class="row">
+                    <input type="text" name="N" placeholder="N" required="required" />
+                    <input type="text" name="P" placeholder="P" required="required" />
+                    <input type="text" name="K" placeholder="K" required="required" />
+                    <input type="text" name="Temperature" placeholder="temperature" required="required" />
+                    <input type="text" name="humidity" placeholder="huimdity" required="required" />
+                    <input type="text" name="ph" placeholder="ph" required="required" />
+                    <input type="text" name="rainfall" placeholder="rainfall" required="required" />
+                
+                     <button type="submit" class="btn btn-primary btn-block btn-large">Recommend crop</button>
+                     <p>{{ prediction_text }}</p>
+                     </div>
+                     
+                </div>
+         </form>
+         <a href="yield.html">
+         <div class="row">
+            <button class="btn btn-primary btn-lg" href="yield.html" style="width: 296px;margin-left: 20px;">Predict yield</button>
+        </div>
+    </a>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
+<!-- vnir -->
