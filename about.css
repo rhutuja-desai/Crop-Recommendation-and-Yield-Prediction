@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+}
+.Nav{
+    position: static;
+    width: 99vw;
+}
+body{
+    background: url(/styling/photos/crop.jpg) no-repeat fixed center;
+    background-size: cover;
+    /* background-position: fixed; */
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+.navbar-custom {
+    background-color: lightgreen;
+}
+.main_container{
+    display:flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 50vw;;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+.main_container h1{
+    margin-top:35px;
+    text-align: center;
+    background-color: #eacfa791;
+}
+.main_container p{
+    height: 100%;
+    margin-top: 5px;
+    margin-bottom: 95px;
+    /* border:2px solid white; */
+    background-color: #eacfa791;
+    /* background-color:linear-gradient(rgba(0, 191, 255, 0.592), rgba(119, 255, 0, 0.436), rgba(126, 128, 0, 0.545)); */
+}

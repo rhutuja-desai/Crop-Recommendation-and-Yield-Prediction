@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url(/styling/photos/crop.jpg) no-repeat fixed center;
+    background-size:cover;
+}
+.h1{
+    margin-bottom:20px;
+}
+
+.container{
+    overflow:auto;
+    overflow-x:hidden;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right input{
+    margin-block-start: 10px;
+    padding: 3px 15px;
+    width: 296px;
+    height: 47px;
+    border-radius: 13px;
+    padding: 19px;
+    margin-left: 28px;
+}
+.right button{
+    margin-block-start: 25px;
+    width: fit-content;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 25px;
+}
+.row-center{
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+    border-radius: 13px;
+}
+.output{
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 296px;
+    height: 50px;
+    border-radius: 13px;
+    padding-left: 21px;
+    padding-top: 10px;
+}
+.op{
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    width: 288px;
+    background-color: rgb(188, 144, 144);
+    padding: 2px;
+    line-height: 30px;
+    margin-block-start: 25px;
+    margin-left: 331px;
+    border-radius: 15px;
+    height: 45px;
+}
+.row p{
+    border: 2px solid black;
+    background-color: white;
+    line-height: 44px;
+    border-radius: 18px;
+    text-align: center;
+    width: auto;
+    margin-left: 27px;
+    margin-top: 20px;
+}

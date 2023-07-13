@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin:0;
+}
+.Nav{
+    position: static;
+    width: 99vw;
+}
+body{
+    background: url(/styling/photos/crop.jpg) no-repeat fixed center;
+    background-size: cover;
+    /* background-position: fixed; */
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+form textarea{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+form input{
+    margin: 10px;
+    border-radius: 7px;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+}
+form button{
+    margin: 10px;
+}
